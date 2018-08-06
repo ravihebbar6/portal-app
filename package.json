@@ -1,0 +1,15 @@
+{
+  "name": "portal-app",
+  "version": "1.0.0",
+  "description": "The is a sample app to demo node",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app -e css,js,ejs,json"
+  },
+  "author": "Ravi Hebbar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

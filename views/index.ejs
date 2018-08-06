@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head><% include templates/head.ejs %></head>
+  <body id="<%= pageId %>">
+    <% include templates/header.ejs %>
+    <% include contents/speakerslist.ejs %>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="maincontent">
+            <% include contents/maincontent.ejs %>
+          </div>
+        </div><!-- primary -->
+        <aside class="col-sm-4">
+          <% include contents/whoshouldcome.ejs %>
+          <% include contents/artwork.ejs %>
+        </aside><!-- secondary -->
+      </div>
+    </div><!-- container -->
+    <% include templates/scripts.ejs %>
+  </body>
+</html>
