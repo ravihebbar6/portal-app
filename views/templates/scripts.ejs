@@ -4,3 +4,12 @@
 <% if (typeof artwork !== "undefined") { %>
 <script src="/js/pixgrid.js"></script>
 <% } %>
+
+<% if (pageId == "feedback") { %>
+<script src="/js/feedback.js"></script>
+<% } %>
+
+<% if (pageId == "chat") { %>
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script src="/js/chat.js"></script>
+<% } %>
